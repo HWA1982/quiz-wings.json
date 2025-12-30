@@ -212,9 +212,7 @@
     "category": "seguranca",
     "level": "intermediario",
     "explanation": "Ruídos fortes ou luzes podem assustar o animal, fazendo-o correr em direção à moto de forma imprevisível."
-  }
-]
-[
+  },
   {
     "id": 24,
     "question": "O que indica o 'TWI' (Tread Wear Indicator) presente nos pneus?",
@@ -3911,4 +3909,5 @@
   }
   ]
 }
+
 
