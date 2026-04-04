@@ -2,23 +2,27 @@
     "meta": {
         "project": "Quiz Wings Motorcycle",
         "author": "Wings Motorcycle Course",
-        "version": "1.0",
-        "lastUpdate": "2025-01-15"
+        "version": "1.1",
+        "lastUpdate": "2026-04-04"
     },
     "quiz": [
         {
             "id": 1,
             "question": "Qual a distância mínima de segurança recomendada em relação ao veículo à frente?",
-            "options": [
-                "1 segundo",
-                "2 segundos",
-                "3 segundos",
-                "5 segundos"
-            ],
+            "options": ["1 segundo", "2 segundos", "3 segundos", "5 segundos"],
             "correct": 1,
             "category": "seguranca",
             "level": "iniciante",
             "explanation": "A regra dos 2 segundos é o mínimo recomendado para manter distância segura em condições normais."
+        },
+        {
+            "id": 2,
+            "question": "Qual o principal freio da motocicleta em termos de poder de parada?",
+            "options": ["Freio Traseiro", "Freio Dianteiro", "Freio Motor", "Ambos têm o mesmo poder"],
+            "correct": 1,
+            "category": "pilotagem",
+            "level": "iniciante",
+            "explanation": "O freio dianteiro é responsável por cerca de 70% a 80% do poder de frenagem devido à transferência de peso."
         },
         {
             "id": 2,
@@ -114,7 +118,7 @@
                 "Deve ser trocada a cada 6 meses"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "A viseira deve estar totalmente abaixada. Com o veículo parado, ela pode ser levantada, devendo ser fechada ao iniciar o movimento."
         },
@@ -190,7 +194,7 @@
         },
         {
             "id": 14,
-            "question": "O que é o 'shimmie' (oscilação do guidão)?",
+            "question": "O que é o 'shimmy' (oscilação do guidão)?",
             "options": [
                 "Um tipo de curva fechada",
                 "Vibração violenta na roda dianteira",
@@ -200,7 +204,7 @@
             "correct": 1,
             "category": "pilotagem",
             "level": "avancado",
-            "explanation": "O shimmie é uma instabilidade no conjunto frontal que pode ser causada por pneus gastos, rodas desbalanceadas ou carga mal distribuída."
+            "explanation": "O shimmy é uma instabilidade no conjunto frontal que pode ser causada por pneus gastos, rodas desbalanceadas ou carga mal distribuída."
         },
         {
             "id": 15,
@@ -568,17 +572,17 @@
         },
         {
             "id": 41,
-            "question": "Fumaça branca saindo pelo escapamento de forma constante pode indicar:",
+            "question": "Fumaça azulada saindo pelo escapamento de forma constante pode indicar:",
             "options": [
                 "Pneus gastos",
-                "Queima de óleo no motor ou problemas de vedação",
+                "Queima de óleo no motor por desgaste de anéis, guias de válvulas ou retentores",
                 "Excesso de combustível apenas",
                 "Que o motor está muito limpo"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "intermediario",
-            "explanation": "Geralmente indica que o óleo está passando para a câmara de combustão, sinalizando necessidade de retífica ou troca de anéis."
+            "explanation": "A fumaça azulada indica que o óleo lubrificante está sendo queimado na câmara de combustão, geralmente por desgaste de anéis de segmento ou retentores de válvula."
         },
         {
             "id": 42,
@@ -618,7 +622,7 @@
                 "Gravíssima, com suspensão do direito de dirigir"
             ],
             "correct": 3,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Segundo o Art. 244 do CTB, é infração gravíssima, gera multa e suspensão direta da CNH."
         },
@@ -632,7 +636,7 @@
                 "5 anos"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "A Lei 14.071/20 alterou o CTB, elevando para 10 anos a idade mínima para crianças em motos."
         },
@@ -646,7 +650,7 @@
                 "Apenas para motos de baixa cilindrada"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Capacetes sem proteção lateral e de nuca (estilo coquinho) não são homologados para uso em motocicletas."
         },
@@ -660,7 +664,7 @@
                 "80 km/h"
             ],
             "correct": 0,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Nas vias locais (destinadas apenas ao acesso local ou áreas restritas), o limite é de 30 km/h quando não sinalizado."
         },
@@ -674,7 +678,7 @@
                 "Proibido"
             ],
             "correct": 0,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Diferente dos carros, motocicletas devem manter o farol baixo aceso dia e noite para aumentar a visibilidade."
         },
@@ -688,7 +692,7 @@
                 "Leve"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Passados 30 dias do vencimento, a infração é gravíssima com retenção do veículo."
         },
@@ -702,7 +706,7 @@
                 "Apenas piscar o farol"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "A placa de parada obrigatória exige que a roda pare de girar completamente antes de avançar."
         },
@@ -716,9 +720,9 @@
                 "Apenas se houver radar"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
-            "explanation": "A regulamentação de velocidade tem validade imediata a partir da posição da placa."
+            "explanation": "A regulamentação de velocidade имеет validade imediata a partir da posição da placa."
         },
         {
             "id": 52,
@@ -730,7 +734,7 @@
                 "Gravíssima"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Cargas que excedem a largura ou altura permitida comprometem o equilíbrio e são infração grave."
         },
@@ -744,7 +748,7 @@
                 "2,00 metros"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "O CTB exige a distância de 1,5m para proteger o ciclista do deslocamento de ar e colisões."
         },
@@ -758,7 +762,7 @@
                 "Via de sentido único"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Linhas amarelas contínuas indicam fluxos opostos e proibição rigorosa de ultrapassagem."
         },
@@ -772,7 +776,7 @@
                 "Estacionar em local proibido"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Praticar exibições ou malabarismos gera multa multiplicada por 10 e suspensão da CNH."
         },
@@ -800,7 +804,7 @@
                 "Serviços Auxiliares"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Placas circulares vermelhas são de Regulamentação e o descumprimento gera punição."
         },
@@ -814,7 +818,7 @@
                 "Parar imediatamente no meio da pista"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "É dever de todo condutor abrir passagem pela esquerda para ambulâncias e viaturas em serviço."
         },
@@ -828,7 +832,7 @@
                 "Recomendado no verão"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "O calçado deve ser preso ao calcanhar para não atrapalhar o uso dos pedais de freio e câmbio."
         },
@@ -856,7 +860,7 @@
                 "Manual do proprietário"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "O licenciamento anual e a habilitação compatível com a categoria 'A' são obrigatórios."
         },
@@ -870,7 +874,7 @@
                 "O preço do pedágio"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Placas de advertência alertam sobre curvas, cruzamentos ou riscos à frente."
         },
@@ -884,8 +888,8 @@
                 "Apenas retenção do veículo por 1 hora"
             ],
             "correct": 1,
-            "category": "legislação",
-            "level": "gravissima",
+            "category": "legislacao",
+            "level": "avancado",
             "explanation": "A Lei Seca é rigorosa e prevê sanções administrativas pesadas e até crime de trânsito dependendo do nível de álcool."
         },
         {
@@ -928,7 +932,7 @@
             "correct": 2,
             "category": "seguranca",
             "level": "intermediario",
-            "explanation": "O travamento da roda dianteira elimina a força direcional e a estabilidade giroscópica."
+            "explanation": "O travamento da roda dianteira elimina a capacidade de direção e a estabilidade giroscópica, resultando em uma queda quase imediata para o lado (perda da dianteira)."
         },
         {
             "id": 67,
@@ -1290,7 +1294,7 @@
                 "Apenas um erro ético, sem punição legal"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "É crime e infração de trânsito deixar de prestar socorro às vítimas, mesmo que você não seja o causador."
         },
@@ -1772,7 +1776,7 @@
         },
         {
             "id": 127,
-            "question": "O sistema de 'Injeção Eletrónica' substituiu qual componente mecânico antigo?",
+            "question": "O sistema de 'Injeção Eletrônica' substituiu qual componente mecânico antigo?",
             "options": [
                 "O Escapamento",
                 "O Carburador",
@@ -1782,13 +1786,13 @@
             "correct": 1,
             "category": "manutencao",
             "level": "iniciante",
-            "explanation": "A injeção eletrónica é mais precisa, económica e menos poluente que o antigo carburador."
+            "explanation": "A injeção eletrônica é mais precisa, económica e menos poluente que o antigo carburador."
         },
         {
             "id": 128,
             "question": "O que indica a sigla 'SAE' presente nos frascos de óleo (ex: SAE 10W40)?",
             "options": [
-                "Sistema de Aceleração Eletrónica",
+                "Sistema de Aceleração Eletrônica",
                 "Índice de viscosidade do óleo estabelecido pela Sociedade de Engenheiros Automotivos",
                 "Selo de Aprovação Ecológica",
                 "Sinal de Alerta de Emergência"
@@ -1810,7 +1814,7 @@
             "correct": 1,
             "category": "manutencao",
             "level": "avancado",
-            "explanation": "Ela envia dados para a central eletrónica (ECU) para manter a queima de combustível perfeita."
+            "explanation": "Ela envia dados para a central eletrônica (ECU) para manter a queima de combustível perfeita."
         },
         {
             "id": 130,
@@ -1833,7 +1837,7 @@
                 "Aumento da velocidade",
                 "Instabilidade, ruídos metálicos e imprecisão ao guiar",
                 "Melhora nas curvas",
-                "Economia de travões"
+                "Economia de freios"
             ],
             "correct": 1,
             "category": "manutencao",
@@ -1875,7 +1879,7 @@
                 "Pneus carecas",
                 "Discos de embreagem gastos ou uso de óleo inadequado",
                 "Andar muito devagar",
-                "Usar o travão dianteiro"
+                "Usar o freio dianteiro"
             ],
             "correct": 1,
             "category": "manutencao",
@@ -1950,29 +1954,29 @@
             "correct": 1,
             "category": "pilotagem",
             "level": "avancado",
-            "explanation": "É um sistema eletrónico que corta a ignição por milissegundos para permitir o engate da próxima marcha."
+            "explanation": "É um sistema eletrônico que corta a ignição por milissegundos para permitir o engate da próxima marcha."
         },
         {
             "id": 140,
             "question": "O que indica a luz de 'Injeção' acesa no painel?",
             "options": [
                 "Que o combustível está acabando",
-                "Uma falha detetada por algum sensor do sistema de gestão do motor",
+                "Uma falha detectada por algum sensor do sistema de gestão do motor",
                 "Que a moto está pronta para correr",
                 "Que o farol alto está ligado"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "iniciante",
-            "explanation": "A central detetou algo fora do padrão e armazenou um código de erro que deve ser verificado com um scanner."
+            "explanation": "A central detectou algo fora do padrão e armazenou um código de erro que deve ser verificado com um scanner."
         },
         {
             "id": 141,
-            "question": "A 'Fregagem de Motor' em motores de 4 tempos é:",
+            "question": "A 'Frenagem de Motor' em motores de 4 tempos é:",
             "options": [
                 "Inexistente",
                 "Muito forte, devido à compressão do motor quando se fecha o acelerador",
-                "O uso do travão de mão",
+                "O uso do freio de mão",
                 "Apenas um mito"
             ],
             "correct": 1,
@@ -1987,7 +1991,7 @@
                 "Um tipo de suspensão moderna",
                 "Quando água ou líquido entra no cilindro e impede o movimento do pistão (podendo quebrar o motor)",
                 "Um suporte para estacionar a moto",
-                "O nome técnico do travão ABS"
+                "O nome técnico do freio ABS"
             ],
             "correct": 1,
             "category": "manutencao",
@@ -2074,7 +2078,7 @@
                 "Cumprir apenas uma função estética"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "O CTB exige adesivos reflexivos em todos os lados do capacete para que outros condutores percebam a moto no escuro."
         },
@@ -2097,7 +2101,7 @@
             "question": "Ao estacionar a moto em uma subida, você deve:",
             "options": [
                 "Deixar em ponto morto",
-                "Deixar engatada em primeira marcha",
+                "Deixar engatada a primeira marcha",
                 "Descer o pezinho do lado direito",
                 "Amarrar a moto em um poste"
             ],
@@ -2106,6 +2110,7 @@
             "level": "iniciante",
             "explanation": "A marcha engatada funciona como um freio de estacionamento, impedindo que a moto role para trás."
         },
+                },
         {
             "id": 151,
             "question": "O que é a 'visão periférica'?",
@@ -2160,7 +2165,7 @@
             "correct": 1,
             "category": "pilotagem",
             "level": "avancado",
-            "explanation": "Evita o fenômeno do 'shimmie', mantendo a frente da moto estável em irregularidades."
+            "explanation": "Evita o fenômeno do 'shimmy', mantendo a frente da moto estável em irregularidades."
         },
         {
             "id": 155,
@@ -2522,7 +2527,7 @@
                 "Nota fiscal de compra da moto"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "O Carta Verde é um seguro obrigatório contra terceiros para circular em países vizinhos."
         },
@@ -2858,9 +2863,9 @@
                 "Do veículo que estiver em maior velocidade"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
-            "explanation": "Regra geral do Código de Estrada: em cruzamentos não sinalizados, a prioridade é de quem vem pela direita."
+            "explanation": "Regra geral do Código de Trânsito Brasileiro: em cruzamentos não sinalizados, a prioridade é de quem vem pela direita."
         },
         {
             "id": 205,
@@ -2872,9 +2877,9 @@
                 "Passagem de Pedestres"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
-            "explanation": "Diferente da placa PARE, o 'Dê a Preferência' exige que reduzas a velocidade e pares apenas se houver outros veículos com prioridade."
+            "explanation": "Diferente da placa PARE, o 'Dê a Preferência' exige que reduza a velocidade e pare apenas se houver outros veículos com prioridade."
         },
         {
             "id": 206,
@@ -2886,7 +2891,7 @@
                 "120 km/h"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Em rodovias de pista dupla sinalizadas como tal, o limite para motos (veículos leves) é de 110 km/h."
         },
@@ -2900,7 +2905,7 @@
                 "Leve"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Para motos, manter o farol aceso é obrigatório a qualquer hora. O descumprimento é infração gravíssima."
         },
@@ -2914,7 +2919,7 @@
                 "Área de emergência"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Linhas brancas dividem faixas de trânsito que seguem na mesma direção."
         },
@@ -2928,7 +2933,7 @@
                 "Ferrovia à frente"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "A placa A-14 alerta o condutor sobre a existência de um cruzamento perigoso adiante."
         },
@@ -2942,7 +2947,7 @@
                 "Não dar seta em conversões"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "avancado",
             "explanation": "Dirigir sem habilitação torna-se crime quando o condutor demonstra direção perigosa ou coloca terceiros em risco real."
         },
@@ -2956,7 +2961,7 @@
                 "Indicar o limite de velocidade"
             ],
             "correct": 2,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Servem para guiar o viajante sobre as facilidades disponíveis ao longo da rota."
         },
@@ -2970,7 +2975,7 @@
                 "Apenas retenção do veículo"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Avançar o sinal vermelho é uma infração gravíssima (7 pontos na CNH no Brasil)."
         },
@@ -2984,7 +2989,7 @@
                 "Cuidado, pista escorregadia"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "A linha amarela indica fluxos opostos. Se for tracejada, a ultrapassagem é permitida onde houver visibilidade."
         },
@@ -2993,12 +2998,12 @@
             "question": "A placa R-24a indica 'Sentido de Circulação da Via'. Se fores contra ela, cometes:",
             "options": [
                 "Infração Grave",
-                "Infração Gravíssima (Transitarem contra-mão em vias de sentido único)",
+                "Infração Gravíssima (Transitar na contramão em vias de sentido único)",
                 "Infração Média",
                 "Nenhuma infração"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Entrar em contramão em vias sinalizadas com sentido único é uma infração de natureza gravíssima."
         },
@@ -3014,21 +3019,21 @@
             "correct": 1,
             "category": "seguranca",
             "level": "iniciante",
-            "explanation": "A seta deve ser dada com tempo suficiente para que quem vem atrás ou na frente possa reagir à tua manobra."
+            "explanation": "A seta deve ser dada com tempo suficiente para que quem vem atrás ou na frente possa reagir à sua manobra."
         },
         {
             "id": 216,
-            "question": "Em rotundas, se não houver sinalização, a preferência é de quem:",
+            "question": "Em rotatórias, se não houver sinalização, a preferência é de quem:",
             "options": [
                 "Está entrando nela",
-                "Já está circulando na rotunda",
+                "Já está circulando na rotatória",
                 "Vem pela direita",
                 "Está em maior velocidade"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
-            "explanation": "Regra de ouro das rotundas: quem já está inserido no fluxo circular tem a prioridade."
+            "explanation": "Regra de ouro das rotatórias: quem já está inserido no fluxo circular tem a prioridade."
         },
         {
             "id": 217,
@@ -3040,7 +3045,7 @@
                 "Ponte Móvel"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Alerta para um trecho de pista com buracos, ondulações ou deformações."
         },
@@ -3054,7 +3059,7 @@
                 "Perda definitiva da moto para o estado"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Disputar corridas em via pública é infração gravíssima com multiplicador de 10x no valor da multa e suspensão da CNH."
         },
@@ -3068,7 +3073,7 @@
                 "Local de ultrapassagem permitida"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "Transitar sobre o 'zebrado' ou marcas de canalização é infração gravíssima."
         },
@@ -3082,7 +3087,7 @@
                 "100 km/h"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "avancado",
             "explanation": "Vias arteriais ligam regiões da cidade e têm limite de 60 km/h quando não há placas."
         },
@@ -3096,7 +3101,7 @@
                 "Nada, a lei escrita é superior"
             ],
             "correct": 0,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "intermediario",
             "explanation": "A autoridade humana no local (policial ou agente) tem prioridade máxima sobre semáforos e placas."
         },
@@ -3110,7 +3115,7 @@
                 "Acenda os faróis"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "avancado",
             "explanation": "1 silvo breve = Siga; 2 silvos breves = Pare; 1 silvo longo = Diminua a marcha."
         },
@@ -3124,9 +3129,9 @@
                 "Buzinar"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
-            "explanation": "O amarelo serve para limpeza do cruzamento. Se puderes parar com segurança, deves fazê-lo."
+            "explanation": "O amarelo serve para limpeza do cruzamento. Se puder parar com segurança, deve fazê-lo."
         },
         {
             "id": 224,
@@ -3166,7 +3171,7 @@
                 "Apenas uma falta de educação, sem multa"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "Além de poluir, objetos lançados podem causar acidentes com outros motociclistas."
         },
@@ -3175,14 +3180,14 @@
             "question": "A emissão excessiva de 'fumaça branca' pelo escapamento pode indicar:",
             "options": [
                 "Que o motor está muito potente",
-                "Queima de óleo lubrificante ou junta do cabeçote danificada",
+                "Passagem de líquido de arrefecimento para a câmara de combustão (junta do cabeçote queimada)",
                 "Que o combustível é de alta qualidade",
                 "Apenas frio matinal"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "intermediario",
-            "explanation": "Fumaça contínua indica problemas mecânicos que aumentam drasticamente a poluição ambiental."
+            "explanation": "Fumaça branca contínua com cheiro adocicado indica que o líquido de arrefecimento está sendo queimado, geralmente por falha na junta do cabeçote."
         },
         {
             "id": 228,
@@ -3222,7 +3227,7 @@
                 "Melhora o rendimento em 50%"
             ],
             "correct": 1,
-            "category": "legislação",
+            "category": "legislacao",
             "level": "iniciante",
             "explanation": "A poluição sonora gera estresse e problemas de saúde na população urbana."
         },
@@ -3718,7 +3723,7 @@
         },
         {
             "id": 266,
-            "question": "A icónica 'Vespa' foi criada por qual fabricante?",
+            "question": "A icônica 'Vespa' foi criada por qual fabricante?",
             "options": [
                 "Ferrari",
                 "Piaggio",
@@ -3956,7 +3961,7 @@
         },
         {
             "id": 283,
-            "question": "O sistema de comando de válvulas 'Desmodrómico' é uma patente famosa de qual marca?",
+            "question": "O sistema de comando de válvulas 'Desmodrômico' é uma patente famosa de qual marca?",
             "options": [
                 "Honda",
                 "Ducati",
@@ -3970,7 +3975,7 @@
         },
         {
             "id": 284,
-            "question": "Em caso de paragem cardiorrespiratória de um motociclista acidentado, deve-se remover o capacete?",
+            "question": "Em caso de parada cardiorrespiratória de um motociclista acidentado, deve-se remover o capacete?",
             "options": [
                 "Sim, imediatamente e de qualquer maneira para ele respirar",
                 "Não, nunca se deve remover o capacete sob risco de lesão medular",
@@ -3984,12 +3989,12 @@
         },
         {
             "id": 285,
-            "question": "O que é o fenómeno 'Power Wheelie'?",
+            "question": "O que é o fenômeno 'Power Wheelie'?",
             "options": [
                 "Quando a moto desliga sozinha",
                 "Quando a roda dianteira levanta apenas pela força da aceleração, sem uso da embreagem",
                 "Um tipo de bateria de alta voltagem",
-                "Uma técnica de travagem em descidas"
+                "Uma técnica de frenagem em descidas"
             ],
             "correct": 1,
             "category": "pilotagem",
@@ -4000,8 +4005,8 @@
             "id": 286,
             "question": "Qual é a função do 'Amortecedor de Direção' em motos de alta performance?",
             "options": [
-                "Tornar o guiador mais leve para manobras",
-                "Evitar oscilações violentas e descontroladas do guiador (shimmie) em altas velocidades",
+                "Tornar o guidão mais leve para manobras",
+                "Evitar oscilações violentas e descontroladas do guidão (shimmy) em altas velocidades",
                 "Absorver impactos de buracos para o piloto não sentir nas mãos",
                 "Ajudar a moto a fazer curvas fechadas"
             ],
@@ -4026,17 +4031,17 @@
         },
         {
             "id": 288,
-            "question": "O que indica um fluido de travão com cor escura (parecendo café)?",
+            "question": "O que indica um fluido de freio com cor escura (parecendo café)?",
             "options": [
                 "Que é um fluido de alta performance",
-                "Que está contaminado por humidade e deve ser substituído imediatamente",
-                "Que o sistema de travagem está lubrificado",
+                "Que está contaminado por umidade e deve ser substituído imediatamente",
+                "Que o sistema de frenagem está lubrificado",
                 "Nada, a cor não importa"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "intermediario",
-            "explanation": "O fluido de travão é higroscópico (absorve água). Fluido velho perde o ponto de ebulição e pode falhar em situações críticas."
+            "explanation": "O fluido de freio é higroscópico (absorve água). Fluido velho perde o ponto de ebulição e pode falhar em situações críticas."
         },
         {
             "id": 289,
@@ -4054,17 +4059,17 @@
         },
         {
             "id": 290,
-            "question": "Numa descida de serra longa, o uso excessivo do travão pode causar 'Fading'. O que é isto?",
+            "question": "Numa descida de serra longa, o uso excessivo do freio pode causar 'Fading'. O que é isto?",
             "options": [
                 "A moto acelerar sozinha",
-                "Perda temporária da eficácia dos travões devido ao superaquecimento",
+                "Perda temporária da eficácia dos freios devido ao superaquecimento",
                 "O desgaste total das pastilhas em poucos minutos",
                 "Um barulho agudo nos discos"
             ],
             "correct": 1,
             "category": "seguranca",
             "level": "intermediario",
-            "explanation": "O calor faz o fluido ferver ou as pastilhas perderem atrito. Use o travão motor para evitar o fading."
+            "explanation": "O calor faz o fluido ferver ou as pastilhas perderem atrito. Use o freio motor para evitar o fading."
         },
         {
             "id": 291,
@@ -4082,10 +4087,10 @@
         },
         {
             "id": 292,
-            "question": "A distância de travagem de uma moto carregada com passageiro e bagagem é:",
+            "question": "A distância de frenagem de uma moto carregada com passageiro e bagagem é:",
             "options": [
                 "A mesma de quando o piloto está sozinho",
-                "Significativamente maior, exigindo mais antecipação e força nos travões",
+                "Significativamente maior, exigindo mais antecipação e força nos freios",
                 "Menor, pois o peso empurra a moto contra o chão",
                 "Indiferente se a moto tiver ABS"
             ],
@@ -4096,11 +4101,11 @@
         },
         {
             "id": 293,
-            "question": "Qual destas partes da moto NÃO deve receber lubrificação por óleo ou massa?",
+            "question": "Qual destas partes da moto NÃO deve receber lubrificação por óleo ou graxa?",
             "options": [
                 "Corrente de transmissão",
                 "Cabos de comando (salvo se tiverem revestimento de teflon)",
-                "Discos e pastilhas de travão",
+                "Discos e pastilhas de freio",
                 "Eixo das rodas"
             ],
             "correct": 2,
@@ -4113,14 +4118,14 @@
             "question": "O termo 'Tank Slapper' refere-se a:",
             "options": [
                 "Bater no tanque para comemorar uma vitória",
-                "Uma oscilação violenta do guiador que bate de um lado para o outro no batente",
+                "Uma oscilação violenta do guidão que bate de um lado para o outro no batente",
                 "O som da gasolina balançando no tanque",
                 "Limpar o tanque com produtos abrasivos"
             ],
             "correct": 1,
             "category": "pilotagem",
             "level": "avancado",
-            "explanation": "É uma situação de emergência extrema onde a frente perde a estabilidade e o guiador sacode violentamente."
+            "explanation": "É uma situação de emergência extrema onde a frente perde a estabilidade e o guidão sacode violentamente."
         },
         {
             "id": 295,
@@ -4128,7 +4133,7 @@
             "options": [
                 "Preto fosco, para não distrair outros motoristas",
                 "Cores de alta visibilidade (Hi-Viz), como amarelo ou laranja fluorescente",
-                "Vermelho, por ser a cor de paragem",
+                "Vermelho, por ser a cor de parada",
                 "Cinzento, para camuflar na estrada"
             ],
             "correct": 1,
@@ -4142,7 +4147,7 @@
             "options": [
                 "O local onde ele mora",
                 "A área ao redor do pedestre onde ele pode mudar de direção subitamente",
-                "A passadeira de peões",
+                "A faixa de pedestres",
                 "O momento em que ele olha para o semáforo"
             ],
             "correct": 1,
@@ -4169,8 +4174,8 @@
             "question": "O 'Trail Braking' é uma técnica avançada que consiste em:",
             "options": [
                 "Frear apenas na terra (Trail)",
-                "Manter a pressão do travão dianteiro suavemente enquanto inicia a entrada da curva",
-                "Puxar o travão de mão em curvas",
+                "Manter a pressão do freio dianteiro suavemente enquanto inicia a entrada da curva",
+                "Puxar o freio de mão em curvas",
                 "Frear com os pés no chão"
             ],
             "correct": 1,
@@ -4267,7 +4272,7 @@
             "question": "Qual o principal risco de instalar um 'bauleto' (top case) com carga excessiva muito atrás do eixo traseiro?",
             "options": [
                 "Aumento do consumo de combustível",
-                "Alívio excessivo da roda dianteira, podendo causar instabilidade e 'shimmie'",
+                "Alívio excessivo da roda dianteira, podendo causar instabilidade e 'shimmy'",
                 "Desgaste prematuro da corrente",
                 "Melhora na frenagem dianteira"
             ],
@@ -4771,14 +4776,14 @@
             "question": "O que é a 'Massa Não Suspensa' em uma motocicleta?",
             "options": [
                 "O peso do piloto e do passageiro",
-                "O peso de componentes que não são suportados pelas molas (rodas, pneus, travões e parte da suspensão)",
+                "O peso de componentes que não são suportados pelas molas (rodas, pneus, freios e parte da suspensão)",
                 "O peso do óleo dentro do motor",
                 "A carga máxima do baú traseiro"
             ],
             "correct": 1,
             "category": "mecanica",
             "level": "avancado",
-            "explanation": "Quanto menor a massa não suspensa, mais rápida é a reação da suspensão às irregularidades do solo, melhorando o contacto do pneu com o asfalto."
+            "explanation": "Quanto menor a massa não suspensa, mais rápida é a reação da suspensão às irregularidades do solo, melhorando o contato do pneu com o asfalto."
         },
         {
             "id": 342,
@@ -4799,7 +4804,7 @@
             "question": "Na pilotagem Off-Road, por que se costuma reduzir a pressão dos pneus?",
             "options": [
                 "Para a moto correr mais nas retas",
-                "Para aumentar a área de contacto e a tração em terrenos macios como areia e lama",
+                "Para aumentar a área de contato e a tração em terrenos macios como areia e lama",
                 "Para evitar que o pneu fure com pedras",
                 "Para economizar combustível"
             ],
@@ -4812,7 +4817,7 @@
             "id": 344,
             "question": "O que causa o 'Entupimento do Respiro' da tampa do tanque de combustível?",
             "options": [
-                "A moto parar de acelerar e morrer após alguns quilómetros, voltando a ligar após abrir o tanque",
+                "A moto parar de acelerar e morrer após alguns quilômetros, voltando a ligar após abrir o tanque",
                 "O farol queimar constantemente",
                 "A corrente saltar da coroa",
                 "Vazamento de óleo pelo escapamento"
@@ -4824,10 +4829,10 @@
         },
         {
             "id": 345,
-            "question": "Qual a principal diferença entre pastilhas de travão 'Orgânicas' e 'Sinterizadas'?",
+            "question": "Qual a principal diferença entre pastilhas de freio 'Orgânicas' e 'Sinterizadas'?",
             "options": [
                 "A cor da embalagem",
-                "As sinterizadas usam partículas metálicas fundidas, suportando maior calor e oferecendo travagens mais potentes",
+                "As sinterizadas usam partículas metálicas fundidas, suportando maior calor e oferecendo frenagens mais potentes",
                 "As orgânicas duram dez vezes mais",
                 "Apenas o preço, a performance é igual"
             ],
@@ -4862,29 +4867,29 @@
             "correct": 1,
             "category": "mecanica",
             "level": "intermediario",
-            "explanation": "O supressor evita que a alta voltagem da ignição cause interferência eletrónica no painel, injeção ou em rádios próximos."
+            "explanation": "O supressor evita que a alta voltagem da ignição cause interferência eletrônica no painel, injeção ou em rádios próximos."
         },
         {
             "id": 348,
-            "question": "Em manobras de baixa velocidade (U-turn), qual travão deve ser priorizado?",
+            "question": "Em manobras de baixa velocidade (U-turn), qual freio deve ser priorizado?",
             "options": [
-                "Travão dianteiro",
-                "Travão traseiro, para estabilizar a moto sem causar o fechamento da direção",
-                "Não se deve usar travão em manobras",
+                "Freio dianteiro",
+                "Freio traseiro, para estabilizar a moto sem causar o fechamento da direção",
+                "Não se deve usar freio em manobras",
                 "Ambos com a mesma força"
             ],
             "correct": 1,
             "category": "pilotagem",
             "level": "intermediario",
-            "explanation": "Usar o travão dianteiro com o guiador virado em baixa velocidade pode fazer a frente 'mergulhar' e a moto tombar para dentro."
+            "explanation": "Usar o freio dianteiro com o guidão virado em baixa velocidade pode fazer a frente 'mergulhar' e a moto tombar para dentro."
         },
         {
             "id": 349,
-            "question": "O que indica a presença de 'limalha de metal' no íman do bujão de óleo?",
+            "question": "O que indica a presença de 'limalha de metal' no ímã do bujão de óleo?",
             "options": [
                 "Que o óleo é de boa qualidade",
                 "Desgaste excessivo de componentes internos (engrenagens, rolamentos ou pistão)",
-                "Que o motor está a ser amaciado corretamente",
+                "Que o motor está sendo amaciado corretamente",
                 "Que o filtro de óleo está cheio"
             ],
             "correct": 1,
@@ -4974,7 +4979,7 @@
             "correct": 1,
             "category": "seguranca",
             "level": "iniciante",
-            "explanation": "Estética nunca deve vir antes da segurança. Silicone nas laterais pode migrar para a área de contacto e tornar o pneu 'sabão'."
+            "explanation": "Estética nunca deve vir antes da segurança. Silicone nas laterais pode migrar para a área de contato e tornar o pneu 'sabão'."
         },
         {
             "id": 356,
@@ -4992,17 +4997,17 @@
         },
         {
             "id": 357,
-            "question": "Qual o perigo de usar 'Parafusos de Aço Inox' em pinças de travão de alumínio?",
+            "question": "Qual o perigo de usar 'Parafusos de Aço Inox' em pinças de freio de alumínio?",
             "options": [
                 "Ficam muito brilhantes e distraem",
                 "A corrosão galvânica pode fazer o parafuso 'soldar' permanentemente no alumínio",
-                "O inox é muito frágil para travões",
+                "O inox é muito frágil para freios",
                 "Não há perigo nenhum"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "avancado",
-            "explanation": "Metais diferentes em contacto geram uma reação química que pode travar a rosca, exigindo a destruição da pinça para remoção."
+            "explanation": "Metais diferentes em contato geram uma reação química que pode travar a rosca, exigindo a destruição da pinça para remoção."
         },
         {
             "id": 358,
@@ -5044,7 +5049,7 @@
             "correct": 1,
             "category": "tecnologia",
             "level": "avancado",
-            "explanation": "Rodas forjadas reduzem a inércia rotacional, permitindo que a moto mude de direção e trave com muito menos esforço."
+            "explanation": "Rodas forjadas reduzem a inércia rotacional, permitindo que a moto mude de direção e freie com muito menos esforço."
         },
         {
             "id": 361,
@@ -5058,21 +5063,21 @@
             "correct": 1,
             "category": "mecanica",
             "level": "avancado",
-            "explanation": "Válvulas presas são perigosas porque não dissipam calor na sede e impedem a vedação perfeita do cilindro, impedindo o motor de ligar quando quente."
+            "explanation": "Válvulas presas são perigosas porque não dissipam calor na sede e impedem a vedação perfeita do cilindro."
         },
         {
             "id": 362,
-            "question": "O sistema 'Slipper Clutch' (Embraiagem Deslizante) tem como principal função:",
+            "question": "O sistema 'Slipper Clutch' (Embreagem Deslizante) tem como principal função:",
             "options": [
-                "Permitir que a embraiagem dure mais tempo",
-                "Evitar o travamento da roda traseira em reduções bruscas de marcha",
+                "Permitir que a embreagem dure mais tempo",
+                "Evitar o bloqueio da roda traseira em reduções bruscas de marcha",
                 "Aumentar a velocidade final da moto",
                 "Deixar o pedal de câmbio mais macio"
             ],
             "correct": 1,
             "category": "tecnologia",
             "level": "avancado",
-            "explanation": "Em reduções fortes, a roda traseira tenta girar o motor mais rápido do que ele consegue. A embraiagem deslizante 'desliza' para evitar que a roda salte ou trave."
+            "explanation": "Em reduções fortes, a roda traseira tenta girar o motor mais rápido do que ele consegue. A embreagem deslizante 'desliza' para evitar que a roda salte ou bloqueie."
         },
         {
             "id": 363,
@@ -5086,7 +5091,7 @@
             "correct": 1,
             "category": "mecanica",
             "level": "intermediario",
-            "explanation": "Se este esticador falhar, a corrente de comando pode saltar dentes, resultando no atropelamento das válvulas pelos pistões e destruição do motor."
+            "explanation": "Se este esticador falhar, a corrente de comando pode saltar dentes, resultando no atropelamento das válvulas pelo pistão e destruição do motor."
         },
         {
             "id": 364,
@@ -5104,21 +5109,21 @@
         },
         {
             "id": 365,
-            "question": "O que é o fenômeno 'Fading' nos travões?",
+            "question": "O que é o fenômeno 'Fading' nos freios?",
             "options": [
                 "Quando as pastilhas acabam totalmente",
-                "A perda de eficiência de travagem causada pelo superaquecimento do fluido ou das pastilhas",
-                "O barulho que o travão faz na chuva",
+                "A perda de eficiência de frenagem causada pelo superaquecimento do fluido ou das pastilhas",
+                "O barulho que o freio faz na chuva",
                 "O desgaste irregular do disco"
             ],
             "correct": 1,
             "category": "seguranca",
             "level": "intermediario",
-            "explanation": "O calor excessivo faz com que o fluido de travão crie bolhas ou que o material da pastilha perca atrito, deixando o manete 'borrachudo' ou ineficiente."
+            "explanation": "O calor excessivo faz com que o fluido de freio crie bolhas ou que o material da pastilha perca atrito, deixando o manete 'borrachudo' ou ineficiente."
         },
         {
             "id": 366,
-            "question": "O sensor de oxigénio conhecido como 'Sonda Lambda' fica localizado em que parte?",
+            "question": "O sensor de oxigênio conhecido como 'Sonda Lambda' fica localizado em que parte?",
             "options": [
                 "No filtro de ar",
                 "No coletor de escape",
@@ -5128,7 +5133,7 @@
             "correct": 1,
             "category": "mecanica",
             "level": "intermediario",
-            "explanation": "Ela lê a quantidade de oxigénio nos gases de escape para que a injeção eletrónica ajuste a mistura ar/combustível em tempo real."
+            "explanation": "Ela lê a quantidade de oxigênio nos gases de escape para que a injeção eletrônica ajuste a mistura ar/combustível em tempo real."
         },
         {
             "id": 367,
@@ -5149,7 +5154,7 @@
             "question": "O que é o sistema 'Ride-by-Wire'?",
             "options": [
                 "Um cabo de acelerador reforçado com aço",
-                "Acelerador eletrónico, onde não há cabo físico entre o punho e a borboleta de admissão",
+                "Acelerador eletrônico, onde não há cabo físico entre o punho e a borboleta de admissão",
                 "Um sistema de GPS integrado",
                 "Controle de rádio para comunicação entre pilotos"
             ],
@@ -5212,11 +5217,11 @@
             "correct": 1,
             "category": "seguranca",
             "level": "avancado",
-            "explanation": "Pneus de alta performance precisam de muito calor para 'colar'. Na chuva e no vento, eles arrefecem e perdem a aderência drasticamente."
+            "explanation": "Pneus de alta performance precisam de muito calor para 'colar'. Na chuva e no vento, eles esfriam e perdem a aderência drasticamente."
         },
         {
             "id": 373,
-            "question": "O componente eletrónico 'IMU' (Inertial Measurement Unit) serve para:",
+            "question": "O componente eletrônico 'IMU' (Inertial Measurement Unit) serve para:",
             "options": [
                 "Medir a quilometragem total",
                 "Monitorar a posição da moto em 6 eixos (inclinação, aceleração, guinada) para auxiliar o ABS e TC",
@@ -5226,7 +5231,7 @@
             "correct": 1,
             "category": "tecnologia",
             "level": "avancado",
-            "explanation": "A IMU permite o 'Cornering ABS', que sabe exatamente quanta pressão de travão aplicar mesmo com a moto inclinada em curva."
+            "explanation": "A IMU permite o 'Cornering ABS', que sabe exatamente quanta pressão de freio aplicar mesmo com a moto inclinada em curva."
         },
         {
             "id": 374,
@@ -5274,15 +5279,15 @@
             "id": 377,
             "question": "Em caso de 'Aquaplanagem', qual deve ser a reação imediata do piloto?",
             "options": [
-                "Travar o travão traseiro com força",
-                "Manter o acelerador fixo ou aliviar suavemente e manter o guiador reto, sem travar",
-                "Virar o guiador rapidamente para os lados",
+                "Travar o freio traseiro com força",
+                "Manter o acelerador fixo ou aliviar suavemente e manter o guidão reto, sem frear",
+                "Virar o guidão rapidamente para os lados",
                 "Inclinar a moto para o lado"
             ],
             "correct": 1,
             "category": "seguranca",
             "level": "intermediario",
-            "explanation": "Qualquer entrada brusca (travagem ou viragem) enquanto o pneu flutua na água causará queda assim que ele retomar o contacto com o asfalto."
+            "explanation": "Qualquer entrada brusca (frenagem ou viragem) enquanto o pneu flutua na água causará queda assim que ele retomar o contato com o asfalto."
         },
         {
             "id": 378,
@@ -5314,11 +5319,11 @@
         },
         {
             "id": 380,
-            "question": "Qual é a vantagem do sistema de travões 'ABS Pro' (ou Cornering ABS)?",
+            "question": "Qual é a vantagem do sistema de freios 'ABS Pro' (ou Cornering ABS)?",
             "options": [
                 "Permite travar em distâncias muito menores em retas",
-                "Modula a pressão dos travões levando em conta a inclinação da moto em curvas",
-                "Faz o travão durar mais",
+                "Modula a pressão dos freios levando em conta a inclinação da moto em curvas",
+                "Faz o freio durar mais",
                 "Impede que o pneu fure"
             ],
             "correct": 1,
@@ -5330,7 +5335,7 @@
             "id": 381,
             "question": "O que define o 'Rake' (ou ângulo de cáster) de uma motocicleta?",
             "options": [
-                "A largura do guiador",
+                "A largura do guidão",
                 "O ângulo entre o eixo da coluna de direção e uma linha vertical imaginária",
                 "A distância entre os eixos das rodas",
                 "A inclinação do amortecedor traseiro"
@@ -5373,14 +5378,14 @@
             "question": "O que é o 'Efeito de Autocentragem' em uma moto em movimento?",
             "options": [
                 "A moto ligar sozinha",
-                "A tendência natural da moto de alinhar o guiador e ficar em pé devido à geometria e rotação das rodas",
-                "O controle de tração eletrónico",
+                "A tendência natural da moto de alinhar o guidão e ficar em pé devido à geometria e rotação das rodas",
+                "O controle de tração eletrônico",
                 "A moto parar de acelerar ao soltar o punho"
             ],
             "correct": 1,
             "category": "pilotagem",
             "level": "avancado",
-            "explanation": "Graças ao 'Trail' e ao efeito giroscópico, a moto tende a manter-se em linha reta. É por isso que ela não cai imediatamente se soltarmos o guiador em velocidade."
+            "explanation": "Graças ao 'Trail' e ao efeito giroscópico, a moto tende a manter-se em linha reta. É por isso que ela não cai imediatamente se soltarmos o guidão em velocidade."
         },
         {
             "id": 385,
@@ -5464,21 +5469,21 @@
             "correct": 1,
             "category": "pilotagem",
             "level": "avancado",
-            "explanation": "O Sag é vital para que, ao passar por um buraco, a roda 'desça' e mantenha o contacto com o solo em vez de perder tração no ar."
+            "explanation": "O Sag é vital para que, ao passar por um buraco, a roda 'desça' e mantenha o contato com o solo em vez de perder tração no ar."
         },
         {
             "id": 391,
-            "question": "O que causa o 'Escurecimento do Fluido de Travão'?",
+            "question": "O que causa o 'Escurecimento do Fluido de Freio'?",
             "options": [
                 "A luz do sol",
-                "Contaminação por humidade e oxidação dos componentes internos do sistema",
-                "O uso constante do travão motor",
+                "Contaminação por umidade e oxidação dos componentes internos do sistema",
+                "O uso constante do freio motor",
                 "O tipo de pastilha usada"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "intermediario",
-            "explanation": "O fluido de travão é higroscópico (absorve água). O escurecimento indica que ele perdeu suas propriedades e deve ser trocado."
+            "explanation": "O fluido de freio é higroscópico (absorve água). O escurecimento indica que ele perdeu suas propriedades e deve ser trocado."
         },
         {
             "id": 392,
@@ -5492,7 +5497,7 @@
             "correct": 1,
             "category": "tecnologia",
             "level": "avancado",
-            "explanation": "Ele atua como um 'ouvido' eletrónico, ajustando o motor para evitar danos causados por combustível de baixa octanagem."
+            "explanation": "Ele atua como um 'ouvido' eletrônico, ajustando o motor para evitar danos causados por combustível de baixa octanagem."
         },
         {
             "id": 393,
@@ -5566,17 +5571,17 @@
         },
         {
             "id": 398,
-            "question": "Por que se deve evitar travar o 'Travão Dianteiro' com a moto inclinada em piso molhado?",
+            "question": "Por que se deve evitar travar o 'Freio Dianteiro' com a moto inclinada em piso molhado?",
             "options": [
-                "Porque o travão pode congelar",
+                "Porque o freio pode congelar",
                 "O limite de aderência é reduzido pela inclinação; travar pode causar o fechamento imediato da frente",
-                "Porque estraga o disco de travão",
-                "O travão dianteiro não funciona na chuva"
+                "Porque estraga o disco de freio",
+                "O freio dianteiro não funciona na chuva"
             ],
             "correct": 1,
             "category": "seguranca",
             "level": "intermediario",
-            "explanation": "Em curva, parte do atrito do pneu é usado para fazer a moto virar. Se usar o travão bruscamente, o pneu excede o limite e escorrega."
+            "explanation": "Em curva, parte do atrito do pneu é usado para fazer a moto virar. Se usar o freio bruscamente, o pneu excede o limite e escorrega."
         },
         {
             "id": 399,
@@ -5618,7 +5623,7 @@
             "correct": 0,
             "category": "manutencao",
             "level": "avancado",
-            "explanation": "Uma faísca azulada tem temperatura e energia suficientes para iniciar a combustão. Faíscas amareladas indicam fuga de corrente ou bobina/cabo desgastados."
+            "explanation": "Uma faísca azulada tem temperatura e energia suficientes para iniciar a combustão. Faíscas amareladas indicam fuga de corrente ou bobina/cabo desgastado."
         },
         {
             "id": 402,
@@ -5814,7 +5819,7 @@
             "correct": 1,
             "category": "manutencao",
             "level": "intermediario",
-            "explanation": "Embora um leve amarelamento seja normal em escapes de inox, o azulamento profundo indica que a temperatura de combustão está acima do ideal."
+            "explanation": "Embora um leve amarelado seja normal em escapes de inox, o azulamento profundo indica que a temperatura de combustão está acima do ideal."
         },
         {
             "id": 416,
@@ -5877,7 +5882,7 @@
             "question": "Qual o risco de pilotar com 'Rolamentos de Caixa de Direção' com calos (marcados)?",
             "options": [
                 "A moto fica mais leve para virar",
-                "O guiador tende a 'travar' levemente no centro, dificultando pequenas correções e instabilizando a moto em retas",
+                "O guidão tende a 'travar' levemente no centro, dificultando pequenas correções e instabilizando a moto em retas",
                 "Os pneus gastam mais rápido",
                 "A buzina para de funcionar"
             ],
@@ -5930,11 +5935,11 @@
         },
         {
             "id": 424,
-            "question": "O que caracteriza um sistema de travão 'Brembo Stylema' ou de alta performance?",
+            "question": "O que caracteriza um sistema de freio 'Brembo Stylema' ou de alta performance?",
             "options": [
                 "São feitos de ferro fundido",
                 "São pinças monobloco usinadas para maior rigidez, leveza e melhor dissipação de calor",
-                "São travões que não usam pastilhas",
+                "São freios que não usam pastilhas",
                 "São exclusivos para motos de baixa cilindrada"
             ],
             "correct": 1,
@@ -5947,7 +5952,7 @@
             "question": "O que é o 'Efeito Venturi' aplicado ao carburador ou corpo de borboleta?",
             "options": [
                 "O aquecimento do ar",
-                "A aceleração do fluxo de ar numa estreitamento, que gera uma queda de pressão e suga o combustível",
+                "A aceleração do fluxo de ar num estreitamento, que gera uma queda de pressão e suga o combustível",
                 "O bloqueio da passagem de óleo",
                 "A vibração do motor em marcha lenta"
             ],
@@ -6038,11 +6043,11 @@
             "correct": 1,
             "category": "manutencao",
             "level": "intermediario",
-            "explanation": "Correntes com retentores (O-ring, X-ring) duram muito mais porque impedem a entrada de terra e a saída da graxa interna de fábrica."
+            "explanation": "Correntes com retentores (O-ring, X-ring) duram mais porque impedem a entrada de terra e a saída da graxa interna de fábrica."
         },
         {
             "id": 432,
-            "question": "O que é o 'Efeito de Shimming' (oscilação) causado por um pneu traseiro mal balanceado?",
+            "question": "O que é o 'Efeito de Shimmy' causado por um pneu traseiro mal balanceado?",
             "options": [
                 "A moto trepida apenas ao frear",
                 "Vibrações que podem ser sentidas no guidão, mesmo que o problema esteja na roda de trás",
@@ -6084,17 +6089,17 @@
         },
         {
             "id": 435,
-            "question": "Qual o principal benefício do uso de 'Nitrogénio' para calibrar pneus de moto?",
+            "question": "Qual o principal benefício do uso de 'Nitrogênio' para calibrar pneus de moto?",
             "options": [
                 "A moto fica mais rápida",
                 "Menor variação de pressão quando o pneu aquece e redução da oxidação interna da roda",
-                "O nitrogénio nunca vaza",
+                "O nitrogênio nunca vaza",
                 "Deixa a borracha mais macia"
             ],
             "correct": 1,
             "category": "manutencao",
             "level": "avancado",
-            "explanation": "O nitrogénio é um gás inerte e seco, o que mantém a pressão mais estável durante o uso intenso em viagens ou pistas."
+            "explanation": "O nitrogênio é um gás inerte e seco, o que mantém a pressão mais estável durante o uso intenso em viagens ou pistas."
         },
         {
             "id": 436,
@@ -6112,7 +6117,7 @@
         },
         {
             "id": 437,
-            "question": "Qual a finalidade de 'furos' ou 'rasgos' nos discos de travão?",
+            "question": "Qual a finalidade de 'furos' ou 'rasgos' nos discos de freio?",
             "options": [
                 "Apenas estética",
                 "Aumentar a ventilação, reduzir o peso e ajudar a limpar a água/gases entre a pastilha e o disco",
@@ -6122,7 +6127,7 @@
             "correct": 1,
             "category": "mecanica",
             "level": "intermediario",
-            "explanation": "Os furos dissipam o calor e ajudam a eliminar a 'almofada de gás' que se forma em travagens extremas, mantendo o atrito."
+            "explanation": "Os furos dissipam o calor e ajudam a eliminar a 'almofada de gás' que se forma em frenagens extremas, mantendo o atrito."
         },
         {
             "id": 438,
@@ -6200,8 +6205,8 @@
             "options": [
                 "Sistema de Autolubrificação Eletrônica",
                 "Society of Automotive Engineers (Sociedade de Engenheiros Automotivos), que classifica a viscosidade",
-                "Seguro de Acidentes Estruturais",
-                "Selo de Aprovação Ecológica"
+                "Selo de Aprovação Ecológica",
+                "Sinal de Alerta de Emergência"
             ],
             "correct": 1,
             "category": "manutencao",
@@ -6255,7 +6260,7 @@
             "question": "O que indica a presença de 'fumaça branca' constante saindo do escape em um motor refrigerado a água?",
             "options": [
                 "Que a mistura está muito rica",
-                "Possível queima do líquido de arrefecimento (junta do cabeçote queimada)",
+                "Possível passagem de líquido de arrefecimento para a câmara de combustão (junta do cabeçote queimada)",
                 "É apenas vapor d'água normal do frio",
                 "Indica que o óleo é novo"
             ],
@@ -6310,9 +6315,9 @@
             "id": 451,
             "question": "O que é 'Trail Braking' na técnica de pilotagem de performance?",
             "options": [
-                "Travar a moto em estradas de terra",
+                "Frear a moto em estradas de terra",
                 "Manter o freio dianteiro levemente acionado enquanto se entra na curva, aliviando gradualmente até o ápice",
-                "Usar apenas o freio traseiro em trilhas",
+                "Usar apenas o freio de mão em trilhas",
                 "Frear apenas quando a moto está reta"
             ],
             "correct": 1,
@@ -6322,7 +6327,7 @@
         },
         {
             "id": 452,
-            "question": "Qual a função do 'Sensor de Tombo' em motos com injeção eletrônica?",
+            "question": "O que é o 'Sensor de Tombo' em motos com injeção eletrônica?",
             "options": [
                 "Marcar a inclinação máxima no painel",
                 "Cortar a bomba de combustível e ignição para evitar incêndios e danos ao motor em caso de queda",
@@ -6340,8 +6345,8 @@
             "options": [
                 "Que ele pode ser usado com ou sem câmara",
                 "Possui borracha mais dura no centro (para durar mais) e mais macia nas laterais (para mais grip em curvas)",
-                "Que o pneu é feito de borracha e plástico",
-                "Que serve tanto para terra quanto para asfalto"
+                "Que serve tanto para terra quanto para asfalto com a mesma eficiência",
+                "Que o pneu é feito de borracha e plástico"
             ],
             "correct": 1,
             "category": "manutencao",
@@ -6492,9 +6497,8 @@
             "id": 464,
             "question": "O que indica a presença de 'Borra Branca' (semelhante a maionese) na tampa de abastecimento de óleo?",
             "options": [
-                "Que o óleo é sintético de alta qualidade",
+                "Que o óleo é de alta qualidade",
                 "Contaminação do óleo por água/líquido de arrefecimento ou condensação excessiva por trajetos curtos",
-                "Que o motor está muito limpo",
                 "Indica que a embreagem está patinando"
             ],
             "correct": 1,
@@ -6504,7 +6508,7 @@
         },
         {
             "id": 465,
-            "question": "O que é o 'Efeito de Shimming' (oscilação lateral) de baixa frequência no guidão?",
+            "question": "O que é o 'Efeito de Shimmy' (oscilação lateral) de baixa frequência no guidão?",
             "options": [
                 "Quando o motor vibra muito em ponto morto",
                 "Oscilações entre 5Hz e 10Hz causadas geralmente por pneus gastos, baús traseiros sobrecarregados ou caixa de direção folgada",
@@ -6602,7 +6606,7 @@
         },
         {
             "id": 472,
-            "question": "A técnica de 'Contra-Esterço' (Countersteering) é eficaz para:",
+            "question": "A técnica de 'Contra-Esterço' é eficaz para:",
             "options": [
                 "Fazer a moto parar em menor distância",
                 "Iniciar a inclinação da moto de forma rápida e precisa em velocidades acima de 30-40 km/h",
@@ -6674,7 +6678,7 @@
             "id": 477,
             "question": "O que caracteriza a fadiga por 'Vapor Lock' nos freios?",
             "options": [
-                "As pastilhas ficarem vitrificadas",
+                "As pastilhas ficam vitrificadas",
                 "O superaquecimento do fluido de freio criando bolhas de vapor, o que torna o manete 'esponjoso' e ineficaz",
                 "O disco de freio ficar torto",
                 "O cabo de freio se romper"
@@ -6752,7 +6756,7 @@
             "correct": 1,
             "category": "mecanica",
             "level": "avancado",
-            "explanation": "Motores monocilíndricos ou de dois cilindros paralelos usam balanceadores para evitar que a vibração excessiva cause desconforto ou quebra de componentes por fadiga."
+            "explanation": "Motores monocilíndricos ou de dois cilindros paralelos usam balanceadores para evitar que a vibração excessiva cause quebra de componentes por fadiga."
         },
         {
             "id": 483,
@@ -6772,10 +6776,10 @@
             "id": 484,
             "question": "O sistema de freio 'UBS' ou 'CBS' (Combined Braking System) atua:",
             "options": [
-                "Ligando o freio ao motor",
+                "Ligar o freio ao motor",
                 "Distribuindo a força de frenagem entre as duas rodas, mesmo que o piloto acione apenas um dos comandos",
                 "Aumentando a potência da moto",
-                "Impedindo que a moto ligue se o freio estiver gasto"
+                "Impedir que a moto ligue se o freio estiver gasto"
             ],
             "correct": 1,
             "category": "tecnologia",
@@ -6906,7 +6910,7 @@
             "correct": 1,
             "category": "tecnologia",
             "level": "avancado",
-            "explanation": "Enquanto o TC evita que a roda gire em falso ao acelerar, o MSR evita que ela trave ao reduzir a marcha bruscamente em pisos lisos."
+            "explanation": "Enquanto o TC evita que a roda gire em falso ao acelerar, o MSR evita que ela bloqueie ao reduzir a marcha bruscamente em pisos lisos."
         },
         {
             "id": 494,
@@ -7004,7 +7008,7 @@
             "correct": 1,
             "category": "seguranca",
             "level": "iniciante",
-            "explanation": "A técnica de pilotagem serve para te tirar de problemas, mas a sabedoria e a percepção servem para não entrar neles."
+            "explanation": "A técnica de pilotagem serve para te tirar de problemas, mas a sabedoria e a percepção constante são o que define um verdadeiro mestre das duas rodas."
         }
     ]
 }
